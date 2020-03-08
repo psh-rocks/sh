@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 // Some program which should be in $PATH.  Needs to run before runTests is

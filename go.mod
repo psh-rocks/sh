@@ -1,4 +1,4 @@
-module mvdan.cc/sh/v3
+module github.com/psh-rocks/sh
 
 go 1.11
 

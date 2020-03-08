@@ -10,7 +10,7 @@ import (
 
 	"github.com/gopherjs/gopherjs/js"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func main() {

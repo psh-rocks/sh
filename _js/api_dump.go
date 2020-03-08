@@ -45,7 +45,7 @@ type DocType struct {
 
 func main() {
 	cfg := &packages.Config{Mode: packages.LoadSyntax}
-	pkgs, err := packages.Load(cfg, "github.com/psh-rocks/sh/v3/syntax")
+	pkgs, err := packages.Load(cfg, "github.com/psh-rocks/sh/syntax")
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)

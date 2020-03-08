@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/syntax"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/xerrors"
 )
@@ -60,6 +60,9 @@ type Runner struct {
 
 	// execHandler is a function responsible for executing programs. It must be non-nil.
 	execHandler ExecHandlerFunc
+
+	// execHandler is a function called before any func call.
+	beforeExecHandler BeforeExecHandlerFunc
 
 	// openHandler is a function responsible for opening files. It must be non-nil.
 	openHandler OpenHandlerFunc
@@ -313,6 +316,14 @@ func Params(args ...string) RunnerOption {
 func ExecHandler(f ExecHandlerFunc) RunnerOption {
 	return func(r *Runner) error {
 		r.execHandler = f
+		return nil
+	}
+}
+
+// OptionBeforeExec to set BeforeExec handler
+func OptionBeforeExec(handler BeforeExecHandlerFunc) RunnerOption {
+	return func(r *Runner) error {
+		r.execHandler
 		return nil
 	}
 }

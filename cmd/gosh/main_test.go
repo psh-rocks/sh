@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/psh-rocks/sh/v3/interp"
+	"github.com/psh-rocks/sh/interp"
 )
 
 // Each test has an even number of strings, which form input-output pairs for

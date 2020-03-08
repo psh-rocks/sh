@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/interp"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/interp"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func Example() {

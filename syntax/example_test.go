@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func Example() {

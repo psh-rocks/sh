@@ -6,7 +6,7 @@ package expand
 import (
 	"strconv"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 // Braces performs brace expansion on a word, given that it contains any

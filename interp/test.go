@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 // non-empty string is true, empty string is false

@@ -13,8 +13,8 @@ import (
 
 	"golang.org/x/term"
 
-	"github.com/psh-rocks/sh/v3/interp"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/interp"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 var command = flag.String("c", "", "command to be executed")

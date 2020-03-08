@@ -20,8 +20,8 @@ import (
 	"golang.org/x/term"
 	"mvdan.cc/editorconfig"
 
-	"github.com/psh-rocks/sh/v3/fileutil"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/fileutil"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 var (

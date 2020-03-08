@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func Arithm(cfg *Config, expr syntax.ArithmExpr) (int, error) {

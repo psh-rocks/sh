@@ -18,9 +18,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/pattern"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/pattern"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func (r *Runner) fillExpandConfig(ctx context.Context) {

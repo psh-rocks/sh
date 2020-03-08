@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/psh-rocks/sh/v3/expand"
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 type overlayEnviron struct {

@@ -18,7 +18,7 @@ import (
 
 	"github.com/rogpeppe/go-internal/testscript"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func init() {

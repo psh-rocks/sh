@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/psh-rocks/sh/v3/pattern"
+	"github.com/psh-rocks/sh/pattern"
 )
 
 func ExampleRegexp() {

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/psh-rocks/sh/v3/syntax"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 func parseWord(t *testing.T, src string) *syntax.Word {

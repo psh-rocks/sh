@@ -15,7 +15,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/psh-rocks/sh/v3/expand"
+	"github.com/psh-rocks/sh/expand"
+	"github.com/psh-rocks/sh/syntax"
 )
 
 // HandlerCtx returns HandlerContext value stored in ctx.
@@ -56,6 +57,9 @@ type HandlerContext struct {
 // Returning nil error sets commands exit status to 0. Other exit statuses
 // can be set with NewExitStatus. Any other error will halt an interpreter.
 type ExecHandlerFunc func(ctx context.Context, args []string) error
+
+// BeforeExecHandlerFunc is called before any command call
+type BeforeExecHandlerFunc func(ctx context.Context, pos syntax.Pos, args []string) error
 
 // DefaultExecHandler returns an ExecHandlerFunc used by default.
 // It finds binaries in PATH and executes them.
