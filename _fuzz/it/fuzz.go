@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/psh-rocks/sh/v3/syntax"
 )
 
 func Fuzz(data []byte) int {

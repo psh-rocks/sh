@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"time"
 
-	"mvdan.cc/sh/v3/expand"
+	"github.com/psh-rocks/sh/v3/expand"
 )
 
 // HandlerCtx returns HandlerContext value stored in ctx.

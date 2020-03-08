@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"mvdan.cc/sh/v3/pattern"
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/psh-rocks/sh/v3/pattern"
+	"github.com/psh-rocks/sh/v3/syntax"
 )
 
 // A Config specifies details about how shell expansion should be performed. The

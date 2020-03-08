@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/psh-rocks/sh/v3/syntax"
 )
 
 func blacklistBuiltinExec(name string) ExecHandlerFunc {

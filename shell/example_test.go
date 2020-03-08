@@ -6,7 +6,7 @@ package shell_test
 import (
 	"fmt"
 
-	"mvdan.cc/sh/v3/shell"
+	"github.com/psh-rocks/sh/v3/shell"
 )
 
 func ExampleExpand() {

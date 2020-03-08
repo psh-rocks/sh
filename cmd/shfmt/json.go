@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"mvdan.cc/sh/v3/syntax"
+	"github.com/psh-rocks/sh/v3/syntax"
 )
 
 func writeJSON(w io.Writer, node syntax.Node, pretty bool) error {

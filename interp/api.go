@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/psh-rocks/sh/v3/expand"
+	"github.com/psh-rocks/sh/v3/syntax"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/xerrors"
-	"mvdan.cc/sh/v3/expand"
-	"mvdan.cc/sh/v3/syntax"
 )
 
 // A Runner interprets shell programs. It can be reused, but it is not safe for
